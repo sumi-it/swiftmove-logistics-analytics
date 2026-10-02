@@ -1,0 +1,175 @@
+{
+ "raw_rows": 6120,
+ "raw_cols": 15,
+ "missing_pct_raw": {
+  "distance_km": 4.02,
+  "load_kg": 3.53,
+  "traffic_index": 2.97,
+  "transport_cost_inr": 2.01,
+  "weather": 1.99,
+  "order_value_inr": 1.52
+ },
+ "dup_rows": 120,
+ "describe_raw": {
+  "num_stops": {
+   "min": 1.0,
+   "50%": 6.0,
+   "max": 15.0
+  },
+  "load_kg": {
+   "min": -3828.0,
+   "50%": 1019.5,
+   "max": 4841.0
+  },
+  "order_qty": {
+   "min": 5.0,
+   "50%": 63.0,
+   "max": 553.0
+  },
+  "order_value_inr": {
+   "min": 329.0,
+   "50%": 12475.0,
+   "max": 823238.9
+  },
+  "traffic_index": {
+   "min": 1.0,
+   "50%": 5.6,
+   "max": 99.0
+  },
+  "is_festival": {
+   "min": 0.0,
+   "50%": 0.0,
+   "max": 1.0
+  },
+  "promised_hours": {
+   "min": 5.0,
+   "50%": 8.0,
+   "max": 19.0
+  },
+  "actual_delivery_hours": {
+   "min": -2.5,
+   "50%": 7.0,
+   "max": 480.0
+  },
+  "transport_cost_inr": {
+   "min": 219.0,
+   "50%": 1078.0,
+   "max": 6033.0
+  }
+ },
+ "dups_removed": 120,
+ "zone_labels_before": [
+  " GORAKHPUR ",
+  " KANPUR ",
+  " LUCKNOW ",
+  " PRAYAGRAJ ",
+  " VARANASI ",
+  "Allahabad",
+  "Gorakhpur",
+  "Kanpur",
+  "Lucknow",
+  "Prayagraj",
+  "Varanasi",
+  "gorakhpur",
+  "kanpur",
+  "lucknow",
+  "prayagraj",
+  "varanasi"
+ ],
+ "zone_labels_after": [
+  "Gorakhpur",
+  "Kanpur",
+  "Lucknow",
+  "Prayagraj",
+  "Varanasi"
+ ],
+ "distance_text_values": 116,
+ "invalid_counts": {
+  "distance_km": 0,
+  "load_kg": 24,
+  "traffic_index": 24,
+  "actual_delivery_hours (rows dropped)": 30
+ },
+ "distance_outliers": 39,
+ "value_outliers": 215,
+ "missing_before_impute": {
+  "distance_km": 276,
+  "load_kg": 230,
+  "traffic_index": 204,
+  "weather": 119,
+  "order_value_inr": 90,
+  "transport_cost_inr": 119
+ },
+ "impute_stats_before": {
+  "distance_km": {
+   "mean": 35.19,
+   "median": 31.3,
+   "std": 19.57
+  },
+  "load_kg": {
+   "mean": 1332.16,
+   "median": 1020.5,
+   "std": 1052.17
+  },
+  "traffic_index": {
+   "mean": 5.6,
+   "median": 5.6,
+   "std": 1.64
+  }
+ },
+ "impute_stats_after": {
+  "distance_km": {
+   "mean": 35.06,
+   "median": 31.3,
+   "std": 19.18
+  },
+  "load_kg": {
+   "mean": 1332.11,
+   "median": 1034.0,
+   "std": 1047.3
+  },
+  "traffic_index": {
+   "mean": 5.6,
+   "median": 5.6,
+   "std": 1.61
+  }
+ },
+ "skew_value_before": 1.7415612617990905,
+ "skew_value_after": -0.0837096036707546,
+ "scale_check": {
+  "minmax_min": 0.0,
+  "minmax_max": 1.0000000000000002,
+  "z_mean_max_abs": 6.641253711124554e-16,
+  "z_std_mean": 1.0
+ },
+ "range_before_scaling": {
+  "distance_km": {
+   "min": 3.0,
+   "max": 167.9
+  },
+  "num_stops": {
+   "min": 1,
+   "max": 15
+  },
+  "load_kg": {
+   "min": 71.0,
+   "max": 4841.0
+  },
+  "traffic_index": {
+   "min": 1.0,
+   "max": 10.0
+  },
+  "order_value_log": {
+   "min": 5.8,
+   "max": 11.3
+  },
+  "load_utilisation": {
+   "min": 0.0,
+   "max": 1.0
+  }
+ },
+ "clean_rows": 5970,
+ "clean_cols": 29,
+ "scaled_cols": 23,
+ "rows_lost_pct": 2.45
+}

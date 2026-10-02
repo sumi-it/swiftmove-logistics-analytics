@@ -1,0 +1,17 @@
+{
+ "raw_mean_hours": 7.928540849673202,
+ "clean_mean_hours": 7.098576214405361,
+ "raw_mean_value": 25317.647779404964,
+ "clean_mean_value": 19698.954690117254,
+ "raw_mean_dist": 37.03251617296559,
+ "clean_mean_dist": 35.06154941373534,
+ "raw_max_dist": 672.0,
+ "raw_zone_groups": 16.0,
+ "clean_zone_groups": 5.0,
+ "raw_orders": 6120.0,
+ "unique_orders": 6000.0,
+ "raw_max_hours": 480.0,
+ "raw_traffic_max": 99.0,
+ "raw_cost_total": 7501551.0,
+ "clean_cost_total": 7476032.0
+}

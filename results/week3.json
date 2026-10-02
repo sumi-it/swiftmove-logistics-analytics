@@ -1,0 +1,256 @@
+{
+ "n": 5970,
+ "summary": {
+  "actual_delivery_hours": {
+   "mean": 7.1,
+   "median": 6.96,
+   "std": 1.69,
+   "min": 1.96,
+   "max": 16.6,
+   "skew": 0.55
+  },
+  "distance_km": {
+   "mean": 35.06,
+   "median": 31.3,
+   "std": 19.18,
+   "min": 3.0,
+   "max": 167.9,
+   "skew": 1.38
+  },
+  "num_stops": {
+   "mean": 6.03,
+   "median": 6.0,
+   "std": 2.27,
+   "min": 1.0,
+   "max": 15.0,
+   "skew": 0.43
+  },
+  "load_kg": {
+   "mean": 1332.11,
+   "median": 1034.0,
+   "std": 1047.3,
+   "min": 71.0,
+   "max": 4841.0,
+   "skew": 1.21
+  },
+  "transport_cost_inr": {
+   "mean": 1252.27,
+   "median": 1077.0,
+   "std": 650.55,
+   "min": 150.0,
+   "max": 6033.0,
+   "skew": 1.34
+  },
+  "cost_per_km": {
+   "mean": 42.55,
+   "median": 35.19,
+   "std": 27.9,
+   "min": 4.31,
+   "max": 393.61,
+   "skew": 3.1
+  },
+  "delay_hours": {
+   "mean": -0.86,
+   "median": -0.92,
+   "std": 1.07,
+   "min": -4.48,
+   "max": 3.17,
+   "skew": 0.21
+  }
+ },
+ "ontime_pct": 78.4,
+ "late_pct": 21.6,
+ "corr_target": {
+  "actual_delivery_hours": 1.0,
+  "distance_km": 0.54,
+  "num_stops": 0.4,
+  "load_kg": 0.42,
+  "traffic_index": 0.26,
+  "transport_cost_inr": 0.68,
+  "is_festival": 0.19,
+  "load_utilisation": 0.11
+ },
+ "corr_cost": {
+  "actual_delivery_hours": 0.68,
+  "distance_km": 0.51,
+  "num_stops": 0.12,
+  "load_kg": 0.8,
+  "traffic_index": 0.01,
+  "transport_cost_inr": 1.0,
+  "is_festival": 0.03,
+  "load_utilisation": 0.2
+ },
+ "monthly": {
+  "1": {
+   "orders": 467,
+   "avg_hours": 7.5,
+   "late_pct": 37.9
+  },
+  "2": {
+   "orders": 501,
+   "avg_hours": 6.9,
+   "late_pct": 13.6
+  },
+  "3": {
+   "orders": 517,
+   "avg_hours": 6.9,
+   "late_pct": 15.9
+  },
+  "4": {
+   "orders": 499,
+   "avg_hours": 7.0,
+   "late_pct": 13.6
+  },
+  "5": {
+   "orders": 488,
+   "avg_hours": 6.8,
+   "late_pct": 10.7
+  },
+  "6": {
+   "orders": 506,
+   "avg_hours": 6.8,
+   "late_pct": 14.4
+  },
+  "7": {
+   "orders": 533,
+   "avg_hours": 7.2,
+   "late_pct": 24.4
+  },
+  "8": {
+   "orders": 483,
+   "avg_hours": 7.3,
+   "late_pct": 27.1
+  },
+  "9": {
+   "orders": 465,
+   "avg_hours": 7.3,
+   "late_pct": 30.5
+  },
+  "10": {
+   "orders": 513,
+   "avg_hours": 7.2,
+   "late_pct": 20.5
+  },
+  "11": {
+   "orders": 463,
+   "avg_hours": 6.9,
+   "late_pct": 13.8
+  },
+  "12": {
+   "orders": 535,
+   "avg_hours": 7.4,
+   "late_pct": 36.4
+  }
+ },
+ "zone_median_hours": {
+  "Gorakhpur": 7.69,
+  "Kanpur": 6.71,
+  "Lucknow": 6.68,
+  "Prayagraj": 6.97,
+  "Varanasi": 7.15
+ },
+ "zone_late_pct": {
+  "Gorakhpur": 21.2,
+  "Kanpur": 20.7,
+  "Lucknow": 22.2,
+  "Prayagraj": 22.3,
+  "Varanasi": 20.7
+ },
+ "weather_late_pct": {
+  "Clear": 7.8,
+  "Fog": 68.4,
+  "Rain": 42.3
+ },
+ "festival_late_pct": {
+  "0": 19.1,
+  "1": 57.8
+ },
+ "weather_counts": {
+  "Clear": 4025,
+  "Rain": 1375,
+  "Fog": 570
+ },
+ "festival_n": 379,
+ "slope_min_per_km": 2.85,
+ "intercept": 5.43,
+ "pivot_late": {
+  "Clear": {
+   "Low (<4)": 0.7,
+   "Medium (4-6.5)": 5.7,
+   "High (>6.5)": 17.4
+  },
+  "Fog": {
+   "Low (<4)": 48.9,
+   "Medium (4-6.5)": 66.4,
+   "High (>6.5)": 85.4
+  },
+  "Rain": {
+   "Low (<4)": 8.7,
+   "Medium (4-6.5)": 37.5,
+   "High (>6.5)": 63.6
+  }
+ },
+ "traffic_band_late": {
+  "Low (<4)": 6.6,
+  "Medium (4-6.5)": 19.0,
+  "High (>6.5)": 35.8
+ },
+ "cost_per_km_vehicle": {
+  "Mini Truck": 35.6,
+  "Pickup": 22.7,
+  "Truck": 60.8
+ },
+ "cost_per_kg_util": {
+  "<30%": {
+   "Mini Truck": 2.3,
+   "Pickup": 3.77,
+   "Truck": 1.31
+  },
+  "30-50%": {
+   "Mini Truck": 1.29,
+   "Pickup": 2.16,
+   "Truck": 0.87
+  },
+  "50-70%": {
+   "Mini Truck": 0.99,
+   "Pickup": 1.64,
+   "Truck": 0.71
+  },
+  ">70%": {
+   "Mini Truck": 0.84,
+   "Pickup": 1.29,
+   "Truck": 0.63
+  }
+ },
+ "util_share": {
+  "50-70%": 41.5,
+  "30-50%": 26.8,
+  ">70%": 24.7,
+  "<30%": 7.0
+ },
+ "truck_low_util_pct": 33.7,
+ "cost_by_vehicle": {
+  "Mini Truck": {
+   "mean": 1170.0,
+   "sum": 2738056.0
+  },
+  "Pickup": {
+   "mean": 762.0,
+   "sum": 1603197.0
+  },
+  "Truck": {
+   "mean": 2054.0,
+   "sum": 3134779.0
+  }
+ },
+ "dow_late": {
+  "0": 22.3,
+  "1": 20.1,
+  "2": 23.7,
+  "3": 22.7,
+  "4": 24.0,
+  "5": 19.8,
+  "6": 18.3
+ },
+ "stops_corr_hours": 0.4
+}
