@@ -3,6 +3,10 @@
 Analysis of delivery performance for a fictional regional FMCG distributor (SwiftMove Distribution, Uttar Pradesh).
 All data is **synthetic**, generated to mimic public logistics datasets such as DataCo Smart Supply Chain and Olist.
 
+Python analytics project for a simulated FMCG distributor: data cleaning, EDA, delivery-time prediction (R² 0.84) and optimisation that lifts on-time delivery from 75.9% to 96.1% in testing. Synthetic Data.
+
+
+
 ## Project structure
 | File | Week | Purpose |
 |---|---|---|
